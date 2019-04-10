@@ -1,12 +1,94 @@
-
-
-img {
-    height: 200px;
-    width: 200px;
-    float: left;
+body {
+  background-image: url("../images/beige_paper.png");
 }
 
-footer {
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+header {
+    background: #ffffff;
+    font-family: ‘Georgia’, Times, Times New Roman, serif;
+    color: #777777;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white; 
+  }
+  
+  li {
+    float: right;
+    margin-right: 50px;
+  }
+  
+  li a {
+    display: block;
+    color: #110d0d;
     text-align: center;
-    float: bottom;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: auto;
+  }
+
+
+
+#name {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 20%;
+    height: 100px;
+    margin-left: 40px;
+    text-align: center;
+    float: left;
+ }
+
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+  
+
+  #name {
+     background: #4aaaa5;
+     color: #ffffff;
+     width: 20%;
+     height: 40px;
+     margin-left: 20px;
+     text-align: center;
+     float: inline-start;
+  }
+
+h1 {
+    color: #4aaaa5;
+}
+
+p {
+    color: #777777;
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    word-spacing: 15px;
+    line-height: 1.8;
+}
+
+footer p{ 
+    color:#ffffff;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    width: 100%;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    
 }
