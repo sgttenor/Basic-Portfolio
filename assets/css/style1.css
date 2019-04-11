@@ -17,7 +17,8 @@
        bottom: 60px;
        right: 340px;
    }
-   .figure  p{
+   /*   this was to make an image grid                 */
+   .figure  p{ 
        font-size: 0;
        display: inline-block;
        width: 230px;
@@ -29,7 +30,7 @@
     margin: auto;
     background: #ffffff;
     width: 960px;
-    height: 1024px;
+    height: 1500px;
 }
 
 .footer  p {
