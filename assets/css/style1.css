@@ -1,0 +1,47 @@
+.img1, .img2, .img3, .img4, .img5 {
+    height:  200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
+  
+   .hangman, .rpg, .widget, .rps, .trivia {
+       color: #ffffff;
+       background: #4aaaa5;
+       height: 35px;
+       width: 200px;
+       text-align: center;
+       padding-top: 15px;
+       position: relative;
+       bottom: 60px;
+       right: 340px;
+   }
+   .figure  p{
+       font-size: 0;
+       display: inline-block;
+       width: 230px;
+       margin: 2px; 
+       overflow: auto;
+}
+
+   .div {
+    margin: auto;
+    background: #ffffff;
+    width: 960px;
+    height: 1024px;
+}
+
+.footer  p {
+    color:#ffffff;
+      text-align: center;
+      border-top: 8px solid; 
+      background-color: #666666;
+      width: 100%;
+      font-size: 15px;
+      position: fixed;
+      bottom: 0;
+  }
+
+
+
